@@ -3,7 +3,7 @@ from telegram.ext import Updater
 from telegram.ext import MessageHandler, Filters
 
 
-updater = Updater(token='1242043599:AAH2nvWyQGofDc6saknLcwM8Gih47hKETq4', use_context=True)
+updater = Updater(token='YOU_TOKEN', use_context=True)
 dispatcher = updater.dispatcher
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
