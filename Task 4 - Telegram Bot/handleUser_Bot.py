@@ -52,7 +52,7 @@ def handle_left_chat_member(update, context):
 newMember_handler = MessageHandler(Filters.status_update.new_chat_members, handle_new_chat_members)
 dispatcher.add_handler(newMember_handler)
 
-leftUser_handler = MessageHandler(Filters.status_update.left_chat_member, handle_left_chat_member)
+leftMember_handler = MessageHandler(Filters.status_update.left_chat_member, handle_left_chat_member)
 dispatcher.add_handler(leftUser_handler)
 
 updater.start_polling()
