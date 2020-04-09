@@ -4,13 +4,6 @@ Created on Tue Apr  7 22:40:29 2020
 
 @author: Sweta Shaw
 """
-"""
-while True:             # Loop continuously
-    inp = input()   # Get the input
-    if inp == "stop":       # If it is a blank line...
-        break       
-        
-"""
 
 import pandas as pd
 
