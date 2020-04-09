@@ -1,0 +1,1 @@
+The bot can be added to any group or channel and given admin privilges. It helps in controlling the spam messages in the group by deleting the notifications about any member joining or leaving the group.
