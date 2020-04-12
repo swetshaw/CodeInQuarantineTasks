@@ -1,3 +1,10 @@
+# N = number of nodes
+# graph = {0: [1, 2], 
+#          1: [3], 
+#          2: [3, 4], 
+#          3: [], 
+#          4: [3]}    for a graph with N=5. This is a demo graph.
+
 print("Enter the number of nodes")
 N = int(input())
 node_list = []
